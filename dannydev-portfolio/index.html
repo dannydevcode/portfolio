@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DannyDev.code</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box avatar-border">
+          <img src="./assets/images/face1.jpg" alt="Marcio Martínez" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Marcio Martinez">Marcio Martínez</h1>
+
+          <p class="title">Web developer</p>
+          
+          <a class="info-btn-download" download href="./assets/Marcio Daniel Martinez Acosta - 202302.pdf">Descargar CV</a>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Mostrar Contacto</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+        
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email:</p>
+
+              <a href="mailto:dannydev.code@gmail.com" class="contact-link">dannydev.code@gmail.com</a>
+              
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://linkedin.com/in/marcio-martínez-developer" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://codepen.io/xdantecx" class="social-link" target="_blank">
+              <ion-icon name="logo-codepen"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/dannydevcode" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resumen</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portafolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contacto</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Acerca de mi</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Soy un programador web, he estado estudiando y desarrollando proyectos front-end con distintas
+            metodologías y framewoks como SASS, BOOTSTRAP, ANGULAR JS, y del lado del back-end SQL.
+          </p>
+
+          <p>
+            Me gustan los desafíos y deseo encontrar un trabajo en el que pueda crecer profesional y técnicamente,
+            y así aportar de manera eficiente a la empresa, también conocer personas que compartan mi gusto por la programación.
+          </p>
+          <p>
+            Me encanta dar soluciones rápidas y útiles con código óptimo y bien estructurado, compartir mis conocimientos en TI y
+            desarrollo web.
+          </p>
+          <p>
+            Mi meta es mejorar cada día más en esta área que tanto me apasiona, amo programar!.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Mis servicios</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desarrollo Web</h4>
+
+                <p class="service-item-text">
+                  Páginas Web elaboradas con los frameworks más actuales y totalmente responsivos.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="desarrollo web icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Diseño web</h4>
+
+                <p class="service-item-text">
+                  Enfocado en dar la mejor experiencia UX / UI, con una interfaz amigable para todos.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">App móvil</h4>
+
+                <p class="service-item-text">
+                  Desarrollo de aplicaciones móviles multiplataforma.
+                </p>
+              </div>
+
+            </li>
+
+            <!-- <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Otros</h4>
+
+                <p class="service-item-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, magnam?
+                </p>
+              </div>
+
+            </li> -->
+
+          </ul>
+
+        </section>
+        
+        <!--
+          - SKILLS
+        -->
+
+        <section class="tools">
+
+          <h3 class="h3 tools-title">Conocimientos<span class="tools-title_mod">Skills</span></h3>
+
+          <ul class="tools-list has-scrollbar">
+
+            <li class="tools-item">
+              <a href="#">
+                <img src="./assets/images/html-icon.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="tools-item">
+              <a href="#">
+                <img src="./assets/images/css-icon.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="tools-item">
+              <a href="#">
+                <img src="./assets/images/sass-log.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="tools-item">
+              <a href="#">
+                <img src="./assets/images/js-icon.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="tools-item">
+              <a href="#">
+                <img src="./assets/images/wordpress-icon.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="tools-item">
+              <a href="#">
+                <img src="./assets/images/bootstrap.png" alt="client logo">
+              </a>
+            </li>
+            
+            <li class="tools-item">
+              <a href="#">
+                <img src="./assets/images/5847ea22cef1014c0b5e4833.png" alt="client logo">
+              </a>
+            </li>
+            
+            <li class="tools-item">
+              <a href="#">
+                <img src="./assets/images/sql-log.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - DEVTOOLS
+        -->
+
+        <section class="tools">
+
+          <h3 class="h3 tools-title">Herramientas<span class="tools-title_mod">DevTools</span></h3>
+
+          <ul class="tools-list has-scrollbar">
+
+            <li class="tools-item">
+              <a href="#">
+                <img src="./assets/images/vsc-icon.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="tools-item">
+              <a href="#">
+                <img src="./assets/images/github-icon.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="tools-item">
+              <a href="#">
+                <img src="./assets/images/npm-icon.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="tools-item">
+              <a href="#">
+                <img src="./assets/images/webpack-icon.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="tools-item">
+              <a href="#">
+                <img src="./assets/images/gsc-icon.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="tools-item">
+              <a href="#">
+                <img src="./assets/images/ga-icon.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resumen" data-page="resumen">
+
+        <header>
+          <h2 class="h2 article-title">Resumen</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Educación</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+        
+                <h4 class="h4 timeline-item-title">Curso de desarrollo de Apps móviles con IONIC (SNPP)</h4>
+          
+                <span>2023 (Cursando actualmente)</span>
+          
+                <p class="timeline-text">
+                  Curso de desarrollo de aplicaciones multiplataforma.
+                </p>
+          
+            </li>
+        
+            <li class="timeline-item">
+        
+                <h4 class="h4 timeline-item-title">Curso Básico SQL (Udemy)</h4>
+          
+                <span>2023 (Cursando actualmente)</span>
+          
+                <p class="timeline-text">
+                  Curso de SQL básico y práctico.
+                </p>
+          
+            </li>
+          
+            <li class="timeline-item">
+        
+                <h4 class="h4 timeline-item-title">Universidad Javascript de cero a Experto (Udemy)</h4>
+          
+                <span>2022 (36 horas)</span>
+          
+                <p class="timeline-text">
+                  Curso de Javascript básico a avanzado.
+                </p>
+          
+            </li>
+              
+            <li class="timeline-item">
+        
+                <h4 class="h4 timeline-item-title">Responsive WEB Design (freecodecamp)</h4>
+          
+                <span>2021 (300 horas)</span>
+          
+                <p class="timeline-text">
+                  Curso de desarrollo web responsivo.
+                </p>
+          
+            </li>
+        
+            <li class="timeline-item">
+        
+                <h4 class="h4 timeline-item-title">Universidad Desarrollo - FrontEnd Web Developer (Udemy)</h4>
+          
+                <span>2021 (30.5 horas)</span>
+          
+                <p class="timeline-text">
+                  Curso completo de desarrollo WEB.
+                </p>
+          
+            </li>
+        
+            <li class="timeline-item">
+        
+                <h4 class="h4 timeline-item-title">HTML, CSS & BOOTSTRAP Course for Beginners (Udemy)</h4>
+          
+                <span>2021 - (7 Horas)</span>
+          
+                <p class="timeline-text">
+                  Maquetación y desarrollo WEB con CSS y BOOTSTRAP.
+                </p>
+          
+            </li>
+        
+            <li class="timeline-item">
+        
+                <h4 class="h4 timeline-item-title">Introducción al Desarrollo WEB II (Google Activate)</h4>
+          
+                <span>2021 -  (40 Horas)</span>
+          
+                <p class="timeline-text">
+                  Como se define una página WEB, maquetación de páginas WEB.
+                </p>
+          
+            </li>
+        
+            <li class="timeline-item">
+        
+              <h4 class="h4 timeline-item-title">Introducción al Desarrollo WEB I (Google Activate)</h4>
+        
+              <span>2021 -  (40 Horas)</span>
+        
+              <p class="timeline-text">
+                Introducción al desarrollo web, historia de la web.
+              </p>
+        
+            </li>
+        
+        </ol>
+        
+        </section>
+
+
+        <section class="skill">
+
+          <h3 class="h3 tools-title">Mis habilidades</h3>
+
+          <ul class="tools-list content-card">
+
+            <li class="tools-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Diseño web</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="tools-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Desarrollo Web</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 55%;"></div>
+              </div>
+
+            </li>
+
+            <li class="tools-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Javascript</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+            <li class="tools-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portafolio" data-page="portafolio">
+
+        <header>
+          <h2 class="h2 article-title">Portafolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Todo</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Desarrollo web</button>
+            </li>
+
+            <!-- <li class="filter-item">
+              <button data-filter-btn>Diseño web</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Aplicaciones</button>
+            </li> -->
+
+           
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>diseño web</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>aplicaciones</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>desarrollo web</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="desarrollo web">
+              <a href="#" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                    <!-- <ion-icon name="eye-outline"></ion-icon> -->
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolio DannyDev</h3>
+
+                <p class="project-category">desarrollo web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="desarrollo web">
+              <a href="https://tienda-carrito-js.netlify.app/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tienda - Juegos</h3>
+
+                <p class="project-category">desarrollo web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="diseño web">
+              <a href="https://mr-sound.netlify.app" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mr. Sound</h3>
+
+                <p class="project-category">desarrollo web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="aplicaciones">
+              <a href="https://lalolanda.netlify.app" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Porfolio One Page</h3>
+
+                <p class="project-category">desarrollo web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="diseño web">
+              <a href="https://portfoliodev01.netlify.app" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portafolio Simple</h3>
+
+                <p class="project-category">desarrollo web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="diseño web">
+              <a href="https://thedanitodesign.netlify.app" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tienda WEB BEM</h3>
+
+                <p class="project-category">desarrollo web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="desarrollo web">
+              <a href="https://ejercicio-5.netlify.app" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hamburgueseria bootstrap</h3>
+
+                <p class="project-category">desarrollo web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="aplicaciones">
+              <a href="https://pc-shopp.netlify.app" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tienda PC-Shop</h3>
+
+                <p class="project-category">desarrollo web</p>
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contacto" data-page="contacto">
+
+        <header>
+          <h2 class="h2 article-title">contacto</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Formulario de Contacto</h3>
+
+          <form action="https://formsubmit.co/dannydev.code@gmail.com" method="post" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nombre Completo" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Mensaje" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Enviar Mensaje</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
